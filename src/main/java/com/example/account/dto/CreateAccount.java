@@ -15,7 +15,7 @@ public class CreateAccount {
         private Long userId;
 
         @NotNull
-        @Min(0)
+        @Min(100)
         private Long initialBalance;    // 초기 잔고
     }
 
